@@ -19,3 +19,15 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'axiom'
+    label: 'Axiom'
+    folder: 'assets/content/axioms'
+    create: true
+    format: 'json'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Text', name: 'text', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+
