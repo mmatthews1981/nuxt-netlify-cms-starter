@@ -7,6 +7,7 @@
 
 <script>
 import Axioms from '~/components/Axioms.vue'
+
 export default {
     components: {
     Axioms
@@ -22,5 +23,4 @@ export default {
 </script>
 
 <style>
-
 </style>
